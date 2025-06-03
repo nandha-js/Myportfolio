@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yugendra Prasad D - About</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+     <nav style="display: flex; justify-content: space-between; align-items: center; background-color: #0a0a0a; color: white; position: sticky; top: 0; z-index: 1000; padding: 20px 40px;">
+  <div style="font-size: 22px; font-weight: bold; letter-spacing: 1px; color: white;">YUGENDRA PRASAD D</div>
+  <ul style="list-style: none; display: flex; gap: 30px; margin: 0; padding: 0;">
+    <li>
+      <a href="index.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="about.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="skill.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Skills
+      </a>
+    </li>
+    <li>
+      <a href="contact.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+<section class="contact-container container">
+    <div class="contact-info">
+      <h1>LET’S CONNECT</h1>
+      <p>
+        Say hello at
+        <a href="mailto:yugendraprasad905@gmail.com">yugendraprasad905@gmail.com</a>
+      </p>
+      <p>
+        For more info, here's my
+        <a href="resume.pdf" download>resume</a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yugendra-prasad-d-31169426b" target="_blank">
+          <img src="linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/Yuga0007" target="_blank">
+          <img src="github.png" alt="GitHub" />
+        </a>
+        <a href="#">
+          <img src="twitter.png" alt="Twitter" />
+        </a>
+        <a href="https://www.instagram.com/_yuga.x_/?hl=en" target="_blank">
+          <img src="insta.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container">
+    © 2023 YUGENDRA PRASAD
+  </footer>
+</body>
+</html>

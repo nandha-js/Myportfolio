@@ -1,0 +1,103 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: black;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-info h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.contact-info p {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.contact-info a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover img {
+  transform: scale(1.2);
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid gray;
+}
+
+.contact-form button {
+  padding: 12px 30px;
+  background-color: gray;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background-color: darkgray;
+}
+/* ===== Footer ===== */
+footer {
+  text-align: left;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+}

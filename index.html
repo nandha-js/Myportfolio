@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+
+ <nav style="display: flex; justify-content: space-between; align-items: center; background-color: #0a0a0a; color: white; position: sticky; top: 0; z-index: 1000; padding: 20px 40px;">
+  <div style="font-size: 22px; font-weight: bold; letter-spacing: 1px; color: white;">YUGENDRA PRASAD D</div>
+  <ul style="list-style: none; display: flex; gap: 30px; margin: 0; padding: 0;">
+    <li>
+      <a href="index.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="about.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="skill.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Skills
+      </a>
+    </li>
+    <li>
+      <a href="contact.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+
+  <section class="hero container">
+    <div class="text-content">
+      <h1>HI, I AM YUGENDRA PRASAD D</h1>
+      <p>
+        I’m a passionate and enthusiastic programmer currently pursuing my M.Sc. IT at SRM University. 
+        I enjoy exploring different technologies and building practical solutions through coding. 
+        I'm eager to learn, grow, and contribute to meaningful projects while continuously improving 
+        my skills and collaborating with creative teams.
+      </p>
+      <br> 
+      <a href="resume.pdf" download class="download-btn">Download CV</a>
+    </div>
+
+    <div class="img-content">
+      <img src="YUGA.jpeg" alt="Yugendra Prasad Photo" />
+    </div>
+  </section>
+
+  <section class="projects-section container">
+    <h1 class="section-title">FEATURED PROJECTS</h1>
+    <p class="section-subtitle">
+      Here are some of the selected projects that showcase my passion for front-end development.
+    </p>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="project1.png" alt="Promotional Project Image" />
+      </div>
+      <div class="project-info">
+        <h2>Promotional landing page for our favorite show</h2>
+        <p>
+          Team project where we designed and built a fun promotional webpage for our favorite show, Adventure Time. 
+          Designed using Figma and developed with responsive front-end principles.
+        </p>
+        <div class="project-meta">
+          <p><strong>Project Type:</strong> Solo</p>
+          <p><strong>Year:</strong> 2023</p>
+          <p><strong>Role:</strong> Front-end Developer</p>
+        </div>
+        <div class="project-links">
+          <a href="#">Live Demo ↗</a>
+          <a href="#">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="project2.png" alt="Blog Site Project Image" />
+      </div>
+      <div class="project-info">
+        <h2>Blog site for World News</h2>
+        <p>
+          Modern blog site created for World News, featuring a clean layout and interactive UI. Developed using HTML, CSS, and a bit of JavaScript.
+        </p>
+        <div class="project-meta">
+          <p><strong>Project Type:</strong> Team</p>
+          <p><strong>Year:</strong> 2022</p>
+          <p><strong>Role:</strong> Front-end Developer</p>
+        </div>
+        <div class="project-links">
+          <a href="#">View Project ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section container">
+    <div class="about-container">
+      <h1 class="about-title">ABOUT ME</h1>
+      <div class="about-content">
+        <br />
+        <h2>I am a Full Stack Developer</h2>
+        <p>
+          I'm a passionate tech enthusiast seeking a Full Stack Internship to apply and improve my skills 
+          in front-end and back-end development. I aim to contribute to real-world projects while learning 
+          from experienced professionals.
+        </p>
+        <a href="about.html" class="about-link">MORE ABOUT ME</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container container">
+    <div class="contact-info">
+      <h1>LET’S CONNECT</h1>
+      <p>
+        Say hello at
+        <a href="mailto:yugendraprasad905@gmail.com">yugendraprasad905@gmail.com</a>
+      </p>
+      <p>
+        For more info, here's my
+        <a href="resume.pdf" download>resume</a>
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yugendra-prasad-d-31169426b" target="_blank">
+          <img src="linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/Yuga0007" target="_blank">
+          <img src="github.png" alt="GitHub" />
+        </a>
+        <a href="#">
+          <img src="twitter.png" alt="Twitter" />
+        </a>
+        <a href="https://www.instagram.com/_yuga.x_/?hl=en" target="_blank">
+          <img src="insta.png" alt="Instagram" />
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container">
+    © 2023 YUGENDRA PRASAD
+  </footer>
+
+</body>
+</html>

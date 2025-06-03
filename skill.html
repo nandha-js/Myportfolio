@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #ffffff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .article-title,
+    .skills-title,
+    .testimonials-title {
+      color: hsl(45, 100%, 72%);
+      font-weight: bold;
+    }
+
+    .skills-list,
+    .testimonials-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills-item,
+    .testimonials-item {
+      margin-bottom: 15px;
+    }
+
+    .title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .skill-progress-bg {
+      background-color: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 10px;
+    }
+
+    .skill-progress-fill {
+      background-color: hsl(45, 100%, 72%);
+      height: 10px;
+    }
+
+    .content-card {
+      background-color: #2e2e2e;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .portfolio {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .h2, .h3, .h4, .h5 {
+      margin: 0;
+    }
+
+    section.skill, section.testimonials {
+      margin-top: 30px;
+    }
+
+    .testimonials-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .testimonials {
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    @media (min-width: 768px) {
+      .skills-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+    }
+  </style>
+</head>
+<nav style="display: flex; justify-content: space-between; align-items: center; background-color: #0a0a0a; color: white; position: sticky; top: 0; z-index: 1000; padding: 20px 40px;">
+  <div style="font-size: 22px; font-weight: bold; letter-spacing: 1px; color: white;">YUGENDRA PRASAD D</div>
+  <ul style="list-style: none; display: flex; gap: 30px; margin: 0; padding: 0;">
+    <li>
+      <a href="index.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="about.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        About
+      </a>
+    </li>
+    <li>
+      <a href="skill.html"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Skills
+      </a>
+    </li>
+    <li>
+      <a href="index.html#contact"
+         style="padding: 8px 20px; border: 2px solid transparent; border-radius: 25px; transition: all 0.3s ease; color: white; text-decoration: none;"
+         onmouseover="this.style.backgroundColor='yellow'; this.style.color='black'; this.style.borderColor='yellow';"
+         onmouseout="this.style.backgroundColor=''; this.style.color='white'; this.style.borderColor='transparent';">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+<body>
+
+<article class="portfolio" data-page="skills">
+
+  <header>
+    <h2 class="h2 article-title">Skills</h2>
+  </header>
+
+  <div class="skills-container">
+
+    <section class="skill">
+      <h3 class="h3 skills-title">Programming Languages</h3>
+      <ul class="skills-list content-card">
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">HTML & CSS</h5><data value="90">100%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Javascript</h5><data value="70">70%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 70%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Python</h5><data value="80">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">JAVA</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">C & C++</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">SQL(DBMS)</h5><data value="50">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Php</h5><data value="50">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+      </ul>
+    </section>
+
+    <section class="skill">
+      <h3 class="h3 skills-title">Framework</h3>
+      <ul class="skills-list content-card">
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Bootstrap</h5><data value="90">90%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">jQuary</h5><data value="70">70%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 70%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">React</h5><data value="80">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Wordpress</h5><data value="80">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div></li>
+        <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Nest.js</h5><data value="50">50%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 50%;"></div></div></li>
+      </ul>
+    </section>
+
+    <section class="testimonials">
+      <h3 class="h3 testimonials-title">Soft Skills</h3>
+      <ul class="testimonials-list">
+        <li class="testimonials-item">
+          <div class="content-card">
+            <h4 class="h4 testimonials-item-title">Debugging Errors</h4>
+            <div class="testimonials-text"><p></p></div>
+          </div>
+        </li>
+        <li class="testimonials-item">
+          <div class="content-card">
+            <h4 class="h4 testimonials-item-title" style="color: hsl(45, 100%, 72%)">Problem Solving</h4>
+            <div class="testimonials-text"><p></p></div>
+          </div>
+        </li>
+        <li class="testimonials-item">
+          <div class="content-card">
+            <h4 class="h4 testimonials-item-title">Leadership</h4>
+            <div class="testimonials-text"><p></p></div>
+          </div>
+        </li>
+        <li class="testimonials-item">
+          <div class="content-card">
+            <h4 class="h4 testimonials-item-title" style="color: hsl(45, 100%, 72%)">Team Worker</h4>
+            <div class="testimonials-text"><p></p></div>
+          </div>
+        </li>
+        <li class="testimonials-item">
+          <div class="content-card">
+            <h4 class="h4 testimonials-item-title">Presentation</h4>
+            <div class="testimonials-text"><p></p></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+</article>
+
+</body>
+</html>
